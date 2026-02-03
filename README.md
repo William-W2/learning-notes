@@ -1,49 +1,59 @@
 ## 📘 Learning Notes
 
-### 1. Git commit author vs GitHub username
+### Building complete projects instead of isolated features
 
-Before this project, I didn’t realize that Git commit authors are determined by
-`user.name` and `user.email`, not the GitHub username.
+Over the past few weeks, I focused on building **small but complete projects**
+instead of isolated coding exercises.
 
-**What I learned**
-- Git stores author information locally
-- GitHub displays commits based on commit metadata
-- Inconsistent author names can affect GitHub profile appearance
+Projects I worked on:
+- Terminal Pac-Man (Python)
+- Personal Dashboard (HTML / CSS / JavaScript)
+- SQL Mini Online Store
 
-**How I fixed it**
-- Configured global Git user settings
-- Rewrote commit history using `git filter-branch`
-
----
-
-### 2. Why dark mode didn’t change the background color
-
-When implementing dark mode, the icon toggled correctly, but the background color
-did not update.
-
-**Root cause**
-- CSS variables were overridden by hard-coded color values later in the file
-
-**Solution**
-- Removed hard-coded colors
-- Centralized theme values using CSS variables
+Through these projects, I learned that **finishing and polishing a project**
+is often more challenging — and more valuable — than writing individual features.
 
 ---
 
-### 3. Writing a production-ready README
+### Understanding real Git and GitHub workflows
 
-This was my first time writing a README intended for GitHub portfolio display.
+Before these projects, I only knew basic Git commands.
+While working on multiple repositories, I encountered real-world issues such as:
+- Push rejections due to remote changes
+- Inconsistent commit author names
+- Rewriting commit history safely
 
-**Key takeaways**
-- Clear project description matters more than long explanations
-- Screenshots and structure greatly improve readability
-- A good README makes a small project feel complete
+Solving these problems helped me understand Git as a **tool for collaboration and history management**, not just version control.
 
 ---
 
-### 4. GitHub workflow confidence boost
+### Writing code for readability and structure
 
-Through this project, I became comfortable with:
-- Initializing repositories
-- Writing meaningful commit messages
-- Handling push conflicts and rebasing
+As my projects grew, I realized the importance of:
+- Clear project structure
+- Meaningful variable and function names
+- Separating concerns between logic, layout, and styles
+
+This mindset shift was especially noticeable in the Personal Dashboard project,
+where organizing CSS and JavaScript properly made future changes much easier.
+
+---
+
+### Documenting projects for others (and my future self)
+
+Writing detailed READMEs forced me to think from the perspective of:
+- A user running the project
+- A reviewer scanning the repository
+- My future self revisiting the code
+
+I learned that **good documentation can significantly increase the perceived quality of a project**, even if the code itself is simple.
+
+---
+
+### Confidence gained from consistency
+
+By pushing updates regularly and refining existing projects,
+I gained confidence not only in coding, but also in:
+- Planning tasks
+- Debugging systematically
+- Improving projects iteratively
